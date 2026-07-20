@@ -11,8 +11,8 @@ export default function JsonLd() {
         additionalName: "NullC0d3",
         description:
           "Cybersecurity Researcher, Threat Intelligence Analyst, and creator of the AnubisX Framework for behavioral digital attribution.",
-        image: "https://ahmedawad.github.io/images/ahmedawadnullc0d3.jpg",
-        url: "https://ahmedawad.github.io",
+        image: "https://ahmedawadresearch.github.io/images/ahmedawadnullc0d3.jpg",
+        url: "https://ahmedawadresearch.github.io",
         sameAs: [
           "https://www.linkedin.com/in/nullc0d3",
           "https://github.com/nullc0d30",
@@ -65,7 +65,7 @@ export default function JsonLd() {
         creator: {
           "@type": "Person",
           name: "Ahmed Awad",
-          sameAs: "https://ahmedawad.github.io",
+          sameAs: "https://ahmedawadresearch.github.io",
         },
         license: "https://creativecommons.org/licenses/by/4.0/",
         funder: [],
@@ -82,7 +82,7 @@ export default function JsonLd() {
         "@type": "WebSite",
         name: "Ahmed Awad (NullC0d3)",
         alternateName: "NullC0d3",
-        url: "https://ahmedawad.github.io",
+        url: "https://ahmedawadresearch.github.io",
         description:
           "Official academic website of Ahmed Awad (NullC0d3), Cybersecurity Researcher and creator of the AnubisX Framework.",
         author: {
@@ -105,21 +105,21 @@ export default function JsonLd() {
       {
         "@type": "BreadcrumbList",
         itemListElement: [
-          { "@type": "ListItem", position: 1, name: "Home", item: "https://ahmedawad.github.io/" },
-          { "@type": "ListItem", position: 2, name: "About", item: "https://ahmedawad.github.io/about/" },
-          { "@type": "ListItem", position: 3, name: "Research", item: "https://ahmedawad.github.io/research/" },
-          { "@type": "ListItem", position: 4, name: "Projects", item: "https://ahmedawad.github.io/projects/" },
-          { "@type": "ListItem", position: 5, name: "AnubisX", item: "https://ahmedawad.github.io/anubisx/" },
-          { "@type": "ListItem", position: 6, name: "Publications", item: "https://ahmedawad.github.io/publications/" },
-          { "@type": "ListItem", position: 7, name: "Books", item: "https://ahmedawad.github.io/books/" },
-          { "@type": "ListItem", position: 8, name: "Contact", item: "https://ahmedawad.github.io/contact/" },
+          { "@type": "ListItem", position: 1, name: "Home", item: "https://ahmedawadresearch.github.io/" },
+          { "@type": "ListItem", position: 2, name: "About", item: "https://ahmedawadresearch.github.io/about/" },
+          { "@type": "ListItem", position: 3, name: "Research", item: "https://ahmedawadresearch.github.io/research/" },
+          { "@type": "ListItem", position: 4, name: "Projects", item: "https://ahmedawadresearch.github.io/projects/" },
+          { "@type": "ListItem", position: 5, name: "AnubisX", item: "https://ahmedawadresearch.github.io/anubisx/" },
+          { "@type": "ListItem", position: 6, name: "Publications", item: "https://ahmedawadresearch.github.io/publications/" },
+          { "@type": "ListItem", position: 7, name: "Books", item: "https://ahmedawadresearch.github.io/books/" },
+          { "@type": "ListItem", position: 8, name: "Contact", item: "https://ahmedawadresearch.github.io/contact/" },
         ],
       },
       {
         "@type": "CollectionPage",
         name: "Publications",
         description: "Research publications and articles by Ahmed Awad (NullC0d3)",
-        url: "https://ahmedawad.github.io/publications/",
+        url: "https://ahmedawadresearch.github.io/publications/",
         author: { "@type": "Person", name: "Ahmed Awad" },
       },
       {
@@ -137,7 +137,7 @@ export default function JsonLd() {
         "@type": "SearchAction",
         target: {
           "@type": "EntryPoint",
-          urlTemplate: "https://ahmedawad.github.io/search/?q={search_term_string}",
+          urlTemplate: "https://ahmedawadresearch.github.io/search/?q={search_term_string}",
         },
         "query-input": "required name=search_term_string",
       },

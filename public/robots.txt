@@ -4,4 +4,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://ahmedawad.github.io/sitemap.xml
+Sitemap: https://ahmedawadresearch.github.io/sitemap.xml
