@@ -1,0 +1,23 @@
+{
+  "name": "Ahmed Awad (NullC0d3) – Cybersecurity Researcher",
+  "short_name": "NullC0d3",
+  "description": "Official academic website of Ahmed Awad (NullC0d3). Cybersecurity Researcher, Threat Intelligence Analyst, and creator of the AnubisX Framework.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#3b82f6",
+  "icons": [
+    {
+      "src": "/images/ahmedawadnullc0d3.jpg",
+      "sizes": "192x192",
+      "type": "image/jpg",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/images/ahmedawadnullc0d3.jpg",
+      "sizes": "512x512",
+      "type": "image/jpg",
+      "purpose": "any maskable"
+    }
+  ]
+}

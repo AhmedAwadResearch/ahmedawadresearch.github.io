@@ -1,0 +1,7 @@
+# robots.txt for Ahmed Awad (NullC0d3)
+# Official academic website
+
+User-agent: *
+Allow: /
+
+Sitemap: https://ahmedawad.github.io/sitemap.xml
