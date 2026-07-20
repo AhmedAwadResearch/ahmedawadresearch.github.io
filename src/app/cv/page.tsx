@@ -1,4 +1,11 @@
+import type { Metadata } from "next";
 import Image from "next/image";
+
+export const metadata: Metadata = {
+  title: "CV",
+  description:
+    "Curriculum Vitae of Ahmed Awad (NullC0d3). Cybersecurity Strategist with 20+ years of experience in Cyber Threat Intelligence, digital forensics, OSINT, and AI-powered digital identity attribution. CISSP certified.",
+};
 import { Download, Shield, BookOpen, Award, Briefcase, Globe, Code2 } from "lucide-react";
 
 const experience = [

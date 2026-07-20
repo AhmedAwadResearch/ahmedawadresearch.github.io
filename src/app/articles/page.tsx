@@ -1,4 +1,11 @@
+import type { Metadata } from "next";
 import { Newspaper, ExternalLink, Calendar } from "lucide-react";
+
+export const metadata: Metadata = {
+  title: "Articles",
+  description:
+    "Industry articles, security analyses, and thought leadership pieces by Ahmed Awad (NullC0d3) published in cybersecurity magazines and technology platforms.",
+};
 
 const articles = [
   { title: "Inside the Mind of a Threat Actor: What CISOs Must Learn Before the Next Breach", publication: "Cyber Defense Magazine", year: 2026, url: "#", description: "An analysis of threat actor psychology and decision-making patterns, providing CISOs with insights to anticipate and prepare for sophisticated cyber attacks." },

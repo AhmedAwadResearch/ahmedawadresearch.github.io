@@ -1,5 +1,12 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import { Code2, ArrowRight, ExternalLink, Github } from "lucide-react";
+
+export const metadata: Metadata = {
+  title: "Research Projects",
+  description:
+    "Flagship research projects by Ahmed Awad (NullC0d3) advancing the science of behavioral digital attribution and cybersecurity intelligence, including the AnubisX Framework.",
+};
 
 const projects = [
   {
@@ -7,7 +14,7 @@ const projects = [
     role: "Creator & Lead Researcher",
     description: "A formal framework for behavioral digital attribution. The framework comprises an axiomatic system of 16 axioms, Cognitive Centroid theory, a mathematical framework of 292 defined objects, 37 specified algorithms across five behavioral modalities, and a four-tier validation infrastructure with 31 pre-specified acceptance criteria.",
     status: "Active Research",
-    links: { github: "https://github.com/AnubisXFramework/AnubisXFramework", website: "https://anubisxframework.github.io", doi: "https://zenodo.org/records/21393392" },
+    links: { github: "https://github.com/AnubisXFramework/anubisxframework.github.io", website: "https://github.com/AnubisXFramework/anubisxframework.github.io", doi: "https://zenodo.org/records/21393392" },
   },
 ];
 

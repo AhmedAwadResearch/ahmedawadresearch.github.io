@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
@@ -5,6 +6,51 @@ import JsonLd from "@/components/JsonLd";
 import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"] });
+
+export const metadata: Metadata = {
+  title: {
+    default: "Ahmed Awad (NullC0d3) – Cybersecurity Researcher",
+    template: "%s | Ahmed Awad (NullC0d3)",
+  },
+  description:
+    "Official academic website of Ahmed Awad (NullC0d3). Cybersecurity Researcher, Threat Intelligence Analyst, and creator of the AnubisX Framework for behavioral digital attribution.",
+  keywords: [
+    "Ahmed Awad",
+    "NullC0d3",
+    "Cybersecurity Researcher",
+    "Threat Intelligence",
+    "AnubisX Framework",
+    "Behavioral Digital Attribution",
+    "Cyber Threat Intelligence",
+    "Digital Forensics",
+    "OSINT",
+  ],
+  authors: [{ name: "Ahmed Awad (NullC0d3)" }],
+  robots: "index, follow",
+  openGraph: {
+    type: "website",
+    locale: "en_US",
+    siteName: "Ahmed Awad (NullC0d3)",
+    url: "https://ahmedawadresearch.github.io",
+    images: [
+      {
+        url: "https://ahmedawadresearch.github.io/images/ahmedawadnullc0d3.jpg",
+        width: 800,
+        height: 800,
+        alt: "Ahmed Awad (NullC0d3) - Cybersecurity Researcher",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+  },
+  alternates: {
+    canonical: "https://ahmedawadresearch.github.io",
+    types: {
+      "application/rss+xml": "https://ahmedawadresearch.github.io/feed.xml",
+    },
+  },
+};
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
@@ -31,31 +77,29 @@ var p=document.getElementById('cv-print-btn');if(p)p.addEventListener('click',fu
         />
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <title>Ahmed Awad (NullC0d3) – Cybersecurity Researcher</title>
-        <meta name="description" content="Official academic website of Ahmed Awad (NullC0d3). Cybersecurity Researcher, Threat Intelligence Analyst, and creator of the AnubisX Framework for behavioral digital attribution." />
         <meta name="keywords" content="Ahmed Awad, NullC0d3, Cybersecurity Researcher, Threat Intelligence, AnubisX Framework, Behavioral Digital Attribution, Cyber Threat Intelligence, Digital Forensics, OSINT" />
         <meta name="author" content="Ahmed Awad (NullC0d3)" />
-        <meta name="robots" content="index, follow" />
+        <meta name="referrer" content="strict-origin-when-cross-origin" />
+        <meta name="theme-color" content="#3b82f6" />
         <link rel="canonical" href="https://ahmedawadresearch.github.io" />
-        <meta property="og:type" content="website" />
-        <meta property="og:locale" content="en_US" />
-        <meta property="og:url" content="https://ahmedawadresearch.github.io" />
-        <meta property="og:site_name" content="Ahmed Awad (NullC0d3)" />
-        <meta property="og:title" content="Ahmed Awad (NullC0d3) – Cybersecurity Researcher" />
-        <meta property="og:description" content="Official academic website of Ahmed Awad (NullC0d3). Cybersecurity Researcher, Threat Intelligence Analyst, and creator of the AnubisX Framework." />
-        <meta property="og:image" content="https://ahmedawadresearch.github.io/images/ahmedawadnullc0d3.jpg" />
-        <meta property="og:image:width" content="800" />
-        <meta property="og:image:height" content="800" />
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Ahmed Awad (NullC0d3) – Cybersecurity Researcher" />
-        <meta name="twitter:description" content="Official academic website of Ahmed Awad (NullC0d3). Cybersecurity Researcher, Threat Intelligence Analyst, and creator of the AnubisX Framework." />
-        <meta name="twitter:image" content="https://ahmedawadresearch.github.io/images/ahmedawadnullc0d3.jpg" />
         <link rel="manifest" href="/manifest.json" />
+        <link rel="alternate" type="application/rss+xml" title="Ahmed Awad (NullC0d3) - Publications Feed" href="https://ahmedawadresearch.github.io/feed.xml" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+        <link rel="dns-prefetch" href="https://github.com" />
+        <link rel="dns-prefetch" href="https://www.linkedin.com" />
+        <link rel="dns-prefetch" href="https://zenodo.org" />
+        <link rel="dns-prefetch" href="https://www.amazon.com" />
         <JsonLd />
       </head>
       <body className={`${inter.className} antialiased`}>
+        <a href="#main-content" className="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 focus:z-[60] focus:px-4 focus:py-2 focus:rounded-lg focus:bg-primary-600 focus:text-white focus:font-medium focus:shadow-lg">
+          Skip to main content
+        </a>
         <Header />
-        <main className="min-h-screen">{children}</main>
+        <main id="main-content" className="min-h-screen" tabIndex={-1}>
+          {children}
+        </main>
         <Footer />
       </body>
     </html>

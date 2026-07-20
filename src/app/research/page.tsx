@@ -1,4 +1,11 @@
+import type { Metadata } from "next";
 import Link from "next/link";
+
+export const metadata: Metadata = {
+  title: "Research",
+  description:
+    "Research areas of Ahmed Awad (NullC0d3): Behavioral Digital Attribution, Cyber Threat Intelligence, Digital Forensics, OSINT, Artificial Intelligence, and the AnubisX Framework.",
+};
 import { Brain, Shield, Eye, Fingerprint, Search, FileText, Activity, ArrowRight } from "lucide-react";
 
 const researchAreas = [

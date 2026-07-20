@@ -33,7 +33,7 @@ export default function Header() {
             </div>
           </Link>
 
-          <nav className="hidden lg:flex items-center gap-1">
+          <nav className="hidden lg:flex items-center gap-1" aria-label="Main navigation">
             {navItems.map((item) => (
               <Link key={item.href} href={item.href} className="px-3 py-2 rounded-lg text-sm font-medium text-slate-600 dark:text-slate-300 hover:text-slate-900 dark:hover:text-white hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors">
                 {item.label}
@@ -59,7 +59,7 @@ export default function Header() {
       </div>
 
       <div id="mobile-menu" className="hidden lg:hidden border-t border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-900">
-        <nav className="max-w-7xl mx-auto px-4 py-4 space-y-1">
+        <nav className="max-w-7xl mx-auto px-4 py-4 space-y-1" aria-label="Mobile navigation">
           {navItems.map((item) => (
             <Link key={item.href} href={item.href} className="block px-4 py-2.5 rounded-lg text-sm font-medium text-slate-600 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors">
               {item.label}

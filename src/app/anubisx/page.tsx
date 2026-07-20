@@ -1,4 +1,11 @@
+import type { Metadata } from "next";
 import { Code2, ExternalLink, Github, BookOpen, Brain, FileText, Shield, Layers, GitBranch, Award } from "lucide-react";
+
+export const metadata: Metadata = {
+  title: "AnubisX Framework",
+  description:
+    "The AnubisX Framework: A formal framework for behavioral digital attribution. 16 axioms, Cognitive Centroid theory, 292 defined objects, 37 algorithms across 5 behavioral modalities, and a 4-tier validation infrastructure.",
+};
 
 const highlights = [
   { icon: Brain, title: "16 Formal Axioms", description: "Six groups of logically necessary axioms governing uncertainty, behavior, identity, attribution, evidence, and reasoning." },
@@ -42,10 +49,10 @@ export default function AnubisX() {
               A Formal Framework for Behavioral Digital Attribution
             </p>
             <div className="flex flex-wrap justify-center gap-4">
-              <a href="https://github.com/AnubisXFramework/AnubisXFramework" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-slate-900 dark:bg-white text-white dark:text-slate-900 font-medium hover:bg-slate-800 dark:hover:bg-slate-100 transition-colors">
+              <a href="https://github.com/AnubisXFramework/anubisxframework.github.io" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-slate-900 dark:bg-white text-white dark:text-slate-900 font-medium hover:bg-slate-800 dark:hover:bg-slate-100 transition-colors">
                 <Github size={18} /> GitHub Repository <ExternalLink size={16} />
               </a>
-              <a href="https://anubisxframework.github.io" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-primary-600 hover:bg-primary-700 text-white font-medium transition-colors shadow-lg shadow-primary-500/25">
+              <a href="https://github.com/AnubisXFramework/anubisxframework.github.io" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-primary-600 hover:bg-primary-700 text-white font-medium transition-colors shadow-lg shadow-primary-500/25">
                 Official Website <ExternalLink size={16} />
               </a>
               <a href="https://zenodo.org/records/21393392" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 text-slate-700 dark:text-slate-200 font-medium hover:bg-slate-50 dark:hover:bg-slate-700 transition-colors">

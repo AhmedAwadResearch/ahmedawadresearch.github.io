@@ -1,4 +1,11 @@
+import type { Metadata } from "next";
 import { Linkedin, ExternalLink, MessageSquare } from "lucide-react";
+
+export const metadata: Metadata = {
+  title: "Contact",
+  description:
+    "Get in touch with Ahmed Awad (NullC0d3) for professional inquiries, research collaborations, speaking engagements, and academic discussions.",
+};
 
 export default function Contact() {
   return (

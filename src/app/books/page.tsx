@@ -1,4 +1,11 @@
+import type { Metadata } from "next";
 import { BookOpen, ExternalLink } from "lucide-react";
+
+export const metadata: Metadata = {
+  title: "Books",
+  description:
+    "Published books by Ahmed Awad (NullC0d3) exploring cybersecurity, threat intelligence, digital identity attribution, and the human dimensions of digital security.",
+};
 
 const books = [
   { title: "You Can Hide Your Name... Not Your Mind", subtitle: "How Artificial Intelligence Reveals the Human Behind Digital Identities", url: "https://www.amazon.com/dp/B0H8LCTTWW", description: "Explores how artificial intelligence and behavioral analysis can unmask anonymous digital identities, revealing the unique cognitive patterns that make each individual identifiable online." },

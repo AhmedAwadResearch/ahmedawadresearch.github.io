@@ -1,4 +1,11 @@
+import type { Metadata } from "next";
 import Image from "next/image";
+
+export const metadata: Metadata = {
+  title: "About",
+  description:
+    "Learn about Ahmed Awad (NullC0d3) – Cybersecurity Researcher, Threat Intelligence Analyst, AI Attribution Specialist, and creator of the AnubisX Framework. 20+ years of experience in cybersecurity.",
+};
 import { Shield, BookOpen, Brain, Target, Award, Globe } from "lucide-react";
 
 const timeline = [

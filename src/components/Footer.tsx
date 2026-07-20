@@ -69,9 +69,10 @@ export default function Footer() {
           </div>
 
           <div>
-            <h3 className="font-semibold text-sm text-slate-900 dark:text-white uppercase tracking-wider mb-4">
+            <h3 className="font-semibold text-sm text-slate-900 dark:text-white uppercase tracking-wider mb-4" id="footer-nav-heading">
               Navigation
             </h3>
+            <nav aria-labelledby="footer-nav-heading">
             <ul className="space-y-2.5">
               {footerNav.map((item) => (
                 <li key={item.href}>
@@ -84,12 +85,14 @@ export default function Footer() {
                 </li>
               ))}
             </ul>
+            </nav>
           </div>
 
           <div>
-            <h3 className="font-semibold text-sm text-slate-900 dark:text-white uppercase tracking-wider mb-4">
+            <h3 className="font-semibold text-sm text-slate-900 dark:text-white uppercase tracking-wider mb-4" id="footer-research-heading">
               Research Profiles
             </h3>
+            <nav aria-labelledby="footer-research-heading">
             <ul className="space-y-2.5">
               {researchLinks.map((link) => (
                 <li key={link.label}>
@@ -105,16 +108,18 @@ export default function Footer() {
                 </li>
               ))}
             </ul>
+            </nav>
           </div>
 
           <div>
-            <h3 className="font-semibold text-sm text-slate-900 dark:text-white uppercase tracking-wider mb-4">
+            <h3 className="font-semibold text-sm text-slate-900 dark:text-white uppercase tracking-wider mb-4" id="footer-anubisx-heading">
               AnubisX Framework
             </h3>
+            <nav aria-labelledby="footer-anubisx-heading">
             <ul className="space-y-2.5">
               <li>
                 <a
-                  href="https://github.com/AnubisXFramework/AnubisXFramework"
+                  href="https://github.com/AnubisXFramework/anubisxframework.github.io"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-1.5 text-sm text-slate-600 dark:text-slate-400 hover:text-primary-600 dark:hover:text-primary-400 transition-colors"
@@ -125,7 +130,7 @@ export default function Footer() {
               </li>
               <li>
                 <a
-                  href="https://anubisxframework.github.io"
+                  href="https://github.com/AnubisXFramework/anubisxframework.github.io"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-1.5 text-sm text-slate-600 dark:text-slate-400 hover:text-primary-600 dark:hover:text-primary-400 transition-colors"
@@ -146,7 +151,9 @@ export default function Footer() {
                 </a>
               </li>
             </ul>
+            </nav>
           </div>
+
         </div>
 
         <div className="mt-10 pt-8 border-t border-slate-200 dark:border-slate-800">

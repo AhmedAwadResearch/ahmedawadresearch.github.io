@@ -1,8 +1,15 @@
+import type { Metadata } from "next";
 import { Github, ExternalLink, Code2, BookOpen } from "lucide-react";
 
+export const metadata: Metadata = {
+  title: "Open Source",
+  description:
+    "Open-source research, frameworks, and tools by Ahmed Awad (NullC0d3). The AnubisX Framework and prototype implementations available for independent validation and community contribution.",
+};
+
 const repos = [
-  { name: "AnubisX Framework", description: "A formal framework for behavioral digital attribution. Axiomatic system, mathematical framework, algorithmic catalog, and validation infrastructure.", url: "https://github.com/AnubisXFramework/AnubisXFramework", language: "Documentation", license: "CC BY 4.0" },
-  { name: "Anubis Twitter v2.5", description: "Prototype implementation of the AnubisX Framework's stylometric modality for Arabic Twitter data. 47 Python source files (~2,800 LOC).", url: "https://github.com/nullc0d30/AnubisXFramework", language: "Python", license: "MIT" },
+  { name: "AnubisX Framework", description: "A formal framework for behavioral digital attribution. Axiomatic system, mathematical framework, algorithmic catalog, and validation infrastructure.", url: "https://github.com/AnubisXFramework/anubisxframework.github.io", language: "Documentation", license: "CC BY 4.0" },
+  { name: "Anubis Twitter v2.5", description: "Prototype implementation of the AnubisX Framework's stylometric modality for Arabic Twitter data. 47 Python source files (~2,800 LOC).", url: "https://github.com/AnubisXFramework/AnubisXFramework", language: "Python", license: "MIT" },
 ];
 
 export default function OpenSource() {

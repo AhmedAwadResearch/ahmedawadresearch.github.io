@@ -1,4 +1,16 @@
+import type { Metadata } from "next";
 import Link from "next/link";
+
+export const metadata: Metadata = {
+  title: "Ahmed Awad (NullC0d3) – Cybersecurity Researcher",
+  description:
+    "Official academic website of Ahmed Awad (NullC0d3). Cybersecurity Researcher, Threat Intelligence Analyst, and creator of the AnubisX Framework for behavioral digital attribution.",
+  openGraph: {
+    title: "Ahmed Awad (NullC0d3) – Cybersecurity Researcher",
+    description:
+      "Official academic website of Ahmed Awad (NullC0d3). Cybersecurity Researcher, Threat Intelligence Analyst, and creator of the AnubisX Framework.",
+  },
+};
 import Image from "next/image";
 import { ArrowRight, BookOpen, Code2, FileText, Shield, Brain, Eye, Search, Fingerprint } from "lucide-react";
 

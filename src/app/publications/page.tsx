@@ -1,4 +1,11 @@
+import type { Metadata } from "next";
 import { FileText } from "lucide-react";
+
+export const metadata: Metadata = {
+  title: "Publications",
+  description:
+    "Peer-reviewed articles, industry publications, and research contributions in cybersecurity and threat intelligence by Ahmed Awad (NullC0d3).",
+};
 
 const publications = [
   {

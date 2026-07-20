@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Ahmed Awad (NullC0d3) – Publications &amp; Articles</title>
+    <link>https://ahmedawadresearch.github.io/</link>
+    <description>Latest publications, articles, and research contributions by Ahmed Awad (NullC0d3), Cybersecurity Researcher and creator of the AnubisX Framework.</description>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 20 Jul 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://ahmedawadresearch.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Inside the Mind of a Threat Actor: What CISOs Must Learn Before the Next Breach</title>
+      <link>https://ahmedawadresearch.github.io/publications/</link>
+      <description>An exploration of threat actor psychology, decision-making processes, and cognitive patterns that security leaders must understand to anticipate and prevent sophisticated cyber attacks.</description>
+      <pubDate>Mon, 20 Jul 2026 00:00:00 +0000</pubDate>
+      <dc:creator>Ahmed Awad</dc:creator>
+      <guid isPermaLink="false">pub-1-2026</guid>
+    </item>
+    <item>
+      <title>The Financialization of Cybercrime</title>
+      <link>https://ahmedawadresearch.github.io/publications/</link>
+      <description>An analysis of the evolving financial infrastructure supporting cybercrime operations, including ransomware-as-a-service, cyber insurance arbitrage, and cryptocurrency-based money laundering.</description>
+      <pubDate>Mon, 20 Jul 2025 00:00:00 +0000</pubDate>
+      <dc:creator>Ahmed Awad</dc:creator>
+      <guid isPermaLink="false">pub-2-2025</guid>
+    </item>
+    <item>
+      <title>How Blockchain Could Disrupt Industries</title>
+      <link>https://blocktelegraph.io/how-blockchain-could-disrupt-industries/</link>
+      <description>An exploration of blockchain technology's potential to transform traditional industries through decentralized trust models and smart contract automation.</description>
+      <pubDate>Mon, 20 Jul 2023 00:00:00 +0000</pubDate>
+      <dc:creator>Ahmed Awad</dc:creator>
+      <guid isPermaLink="false">article-3-2023</guid>
+    </item>
+  </channel>
+</rss>

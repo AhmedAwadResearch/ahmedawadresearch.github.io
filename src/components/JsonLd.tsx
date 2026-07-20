@@ -46,10 +46,6 @@ export default function JsonLd() {
         ],
         alumniOf: [],
         worksFor: [],
-        author: {
-          "@type": "Person",
-          name: "Ahmed Awad",
-        },
       },
       {
         "@type": "ResearchProject",
@@ -57,9 +53,9 @@ export default function JsonLd() {
         alternateName: "AnubisX Attribution Framework",
         description:
           "A formal framework for behavioral digital attribution comprising an axiomatic system, Cognitive Centroid theory, mathematical framework, algorithmic catalog, and validation infrastructure.",
-        url: "https://anubisxframework.github.io",
+        url: "https://github.com/AnubisXFramework/anubisxframework.github.io",
         sameAs: [
-          "https://github.com/AnubisXFramework/AnubisXFramework",
+          "https://github.com/AnubisXFramework/anubisxframework.github.io",
           "https://zenodo.org/records/21393392",
         ],
         creator: {
@@ -85,19 +81,10 @@ export default function JsonLd() {
         url: "https://ahmedawadresearch.github.io",
         description:
           "Official academic website of Ahmed Awad (NullC0d3), Cybersecurity Researcher and creator of the AnubisX Framework.",
-        author: {
-          "@type": "Person",
-          name: "Ahmed Awad",
-        },
-        publisher: {
-          "@type": "Person",
-          name: "Ahmed Awad",
-        },
+        author: { "@type": "Person", name: "Ahmed Awad" },
+        publisher: { "@type": "Person", name: "Ahmed Awad" },
         inLanguage: "en-US",
-        copyrightHolder: {
-          "@type": "Person",
-          name: "Ahmed Awad",
-        },
+        copyrightHolder: { "@type": "Person", name: "Ahmed Awad" },
         copyrightYear: 2026,
         isAccessibleForFree: true,
         license: "https://creativecommons.org/licenses/by/4.0/",
@@ -123,10 +110,92 @@ export default function JsonLd() {
         author: { "@type": "Person", name: "Ahmed Awad" },
       },
       {
+        "@type": "ScholarlyArticle",
+        name: "Inside the Mind of a Threat Actor: What CISOs Must Learn Before the Next Breach",
+        author: { "@type": "Person", name: "Ahmed Awad" },
+        datePublished: "2026",
+        publisher: "Cyber Defense Magazine",
+        description:
+          "An exploration of threat actor psychology, decision-making processes, and cognitive patterns that security leaders must understand to anticipate and prevent sophisticated cyber attacks.",
+        url: "https://ahmedawadresearch.github.io/publications/",
+      },
+      {
+        "@type": "ScholarlyArticle",
+        name: "The Financialization of Cybercrime",
+        author: { "@type": "Person", name: "Ahmed Awad" },
+        datePublished: "2025",
+        publisher: "Cyber Defense Magazine",
+        description:
+          "An analysis of the evolving financial infrastructure supporting cybercrime operations, including ransomware-as-a-service, cyber insurance arbitrage, and cryptocurrency-based money laundering.",
+        url: "https://ahmedawadresearch.github.io/publications/",
+      },
+      {
+        "@type": "Article",
+        name: "How Blockchain Could Disrupt Industries",
+        author: { "@type": "Person", name: "Ahmed Awad" },
+        datePublished: "2023",
+        publisher: "Blocktelegraph.io",
+        description:
+          "An exploration of blockchain technology's potential to transform traditional industries through decentralized trust models and smart contract automation.",
+        url: "https://blocktelegraph.io/how-blockchain-could-disrupt-industries/",
+      },
+      {
+        "@type": "Book",
+        name: "You Can Hide Your Name... Not Your Mind",
+        alternateName: "How Artificial Intelligence Reveals the Human Behind Digital Identities",
+        author: { "@type": "Person", name: "Ahmed Awad" },
+        url: "https://www.amazon.com/dp/B0H8LCTTWW",
+        description:
+          "Explores how artificial intelligence and behavioral analysis can unmask anonymous digital identities, revealing the unique cognitive patterns that make each individual identifiable online.",
+      },
+      {
+        "@type": "Book",
+        name: "Inside the Hacker Hunter's Mind",
+        author: { "@type": "Person", name: "Ahmed Awad" },
+        url: "https://www.amazon.com/gp/product/B0FF1X2WS4",
+        description:
+          "A deep dive into the psychological and methodological approaches of those who track and apprehend cybercriminals.",
+      },
+      {
+        "@type": "Book",
+        name: "Inside the Hacker Hunter's Toolkit",
+        author: { "@type": "Person", name: "Ahmed Awad" },
+        url: "https://www.amazon.com/gp/product/B0FFSWB2XS",
+        description:
+          "Comprehensive guide to the tools, techniques, and technologies used by cybersecurity professionals.",
+      },
+      {
+        "@type": "Book",
+        name: "Inside the Hacker Hunter's Domain Cyber Intelligence",
+        author: { "@type": "Person", name: "Ahmed Awad" },
+        url: "https://www.amazon.com/gp/product/B0FXGTRCQT",
+        description:
+          "Examines the domain of cyber intelligence operations, from threat detection to attribution.",
+      },
+      {
+        "@type": "Book",
+        name: "Inside the Hacker Hunter's AI Identity War",
+        author: { "@type": "Person", name: "Ahmed Awad" },
+        url: "https://www.amazon.com/gp/product/B0GF23FBCN",
+        description:
+          "Investigates the emerging battlefield where artificial intelligence is used both to conceal and reveal digital identities.",
+      },
+      {
         "@type": "SoftwareSourceCode",
         name: "AnubisX Framework",
         description:
           "A formal framework for behavioral digital attribution with 37 algorithms across 5 behavioral modalities.",
+        url: "https://github.com/AnubisXFramework/anubisxframework.github.io",
+        codeRepository: "https://github.com/AnubisXFramework/anubisxframework.github.io",
+        programmingLanguage: "Python",
+        license: "https://opensource.org/licenses/MIT",
+        author: { "@type": "Person", name: "Ahmed Awad" },
+      },
+      {
+        "@type": "SoftwareSourceCode",
+        name: "Anubis Twitter v2.5",
+        description:
+          "Prototype implementation of the AnubisX Framework's stylometric modality for Arabic Twitter data. 47 Python source files (~2,800 LOC).",
         url: "https://github.com/AnubisXFramework/AnubisXFramework",
         codeRepository: "https://github.com/AnubisXFramework/AnubisXFramework",
         programmingLanguage: "Python",
