@@ -1,0 +1,23 @@
+/* TEAM */
+
+Author: Ahmed Awad
+Alias: NullC0d3
+Site: https://ahmedawadresearch.github.io
+Email: (via LinkedIn) https://www.linkedin.com/in/nullc0d3
+
+/* SITE */
+
+Technology: Next.js 15 (Static Export), Tailwind CSS, TypeScript
+Framework: React Server Components (no client-side JavaScript runtime)
+Font: Inter (Google Fonts)
+Animations: Pure CSS animations (no JavaScript animation libraries)
+Hosting: GitHub Pages via GitHub Actions
+
+/* THANKS */
+
+Built with Next.js, Tailwind CSS, and the open-source community.
+Icons by Lucide (https://lucide.dev).
+
+/* UPDATED */
+
+2026-07-21

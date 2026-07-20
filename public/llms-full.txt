@@ -1,0 +1,194 @@
+# Ahmed Awad (NullC0d3) — Cybersecurity Researcher — Full Profile
+
+## Identity
+
+**Full Name:** Ahmed Awad  
+**Alias / Handle:** NullC0d3  
+**Job Titles:**
+- Cybersecurity Researcher
+- Threat Intelligence Analyst
+- AI Attribution Specialist
+- Senior Cyber Threat Analyst (Government Entity)
+- Author
+
+**Certifications:** ISC2 CISSP, CISO, Penetration Testing and Ethical Hacking, Security Blue Team Analyst, Python for Security Professionals, CCNA Security, Security+, Network+, MCITP
+
+**Languages:** English (C1), Arabic (Native)
+
+**Experience:** 20+ years in cybersecurity, threat intelligence, and digital forensics across government and enterprise environments.
+
+**Profiles:**
+- Website: https://ahmedawadresearch.github.io/
+- LinkedIn: https://www.linkedin.com/in/nullc0d3
+- GitHub: https://github.com/nullc0d30
+- ORCID: https://orcid.org/0009-0005-0654-3393
+- ResearchGate: https://www.researchgate.net/profile/Ahmed-Awad-118
+- OSF: https://osf.io/37bhn/
+- Zenodo: https://zenodo.org/records/21393392
+- Figshare: https://figshare.com/authors/Ahmed_Awad/24415733
+
+---
+
+## Navigation
+
+- Home: https://ahmedawadresearch.github.io/
+- About: https://ahmedawadresearch.github.io/about/
+- Research: https://ahmedawadresearch.github.io/research/
+- Projects: https://ahmedawadresearch.github.io/projects/
+- AnubisX Framework: https://ahmedawadresearch.github.io/anubisx/
+- Publications: https://ahmedawadresearch.github.io/publications/
+- Books: https://ahmedawadresearch.github.io/books/
+- Articles: https://ahmedawadresearch.github.io/articles/
+- Open Source: https://ahmedawadresearch.github.io/open-source/
+- CV: https://ahmedawadresearch.github.io/cv/
+- Contact: https://ahmedawadresearch.github.io/contact/
+
+---
+
+## Research Areas
+
+### Behavioral Digital Attribution
+Formal framework for attributing anonymous digital identities through behavioral analysis across multiple modalities including stylometry, keystroke dynamics, mouse dynamics, linguistic analysis, and cognitive biometrics.
+
+### Cyber Threat Intelligence (CTI)
+Advanced threat hunting, SIEM operations, threat actor profiling, IOC/IOA extraction and analysis, malware analysis, and digital forensics.
+
+### OSINT (Open Source Intelligence)
+Using tools including VirusTotal, Shodan, Maltego, Censys, and Splunk for intelligence gathering and threat actor tracking.
+
+### Digital Forensics & Incident Response (DFIR)
+Forensic analysis of packet captures, file systems, and logs; incident response coordination; malware functionality analysis.
+
+### AI & Digital Identity
+Leveraging artificial intelligence for digital identity attribution, behavioral analysis, and threat detection.
+
+---
+
+## AnubisX Framework
+
+**Full Name:** AnubisX Framework / AnubisX Attribution Framework  
+**Creator:** Ahmed Awad (NullC0d3)  
+**Status:** Active Research  
+**Repository:** https://github.com/AnubisXFramework/anubisxframework.github.io  
+**DOI:** https://zenodo.org/records/21393392 (10.5281/zenodo.21393392)  
+**License:** CC BY 4.0
+
+### Framework Components
+1. **Axiomatic System** — 16 formal axioms forming the logical foundation for behavioral digital attribution
+2. **Cognitive Centroid Theory** — A theory defining the unique cognitive center of each individual as expressed through digital behavior
+3. **Mathematical Framework** — 292 defined objects providing formal mathematical rigor
+4. **Algorithmic Catalog** — 37 specified algorithms across 5 behavioral modalities:
+   - Stylometric (writing style analysis)
+   - Keystroke dynamics (typing patterns)
+   - Mouse dynamics (cursor movement patterns)
+   - Linguistic (language usage patterns)
+   - Cognitive biometrics (thinking pattern analysis)
+5. **Validation Infrastructure** — 4-tier system with 31 pre-specified acceptance criteria
+
+### Key Principles
+- All axioms, mathematical objects, algorithms, and validation criteria are publicly documented
+- All limitations, failure modes, and validation status are explicitly documented
+- Independent researchers are encouraged to validate, replicate, and build upon this work
+- Establishes a new standard of transparency in behavioral attribution research
+
+---
+
+## Professional Experience
+
+### Senior Cyber Threat Analyst | Government Entity (Confidential) | 2015 – Present
+- Security event monitoring using SIEM and advanced threat hunting operations
+- Incident response coordination and escalation management
+- Malware analysis and forensic reporting
+- Threat intelligence extraction and IOC/IOA analysis
+- Mentoring junior analysts and leading CIRT/SOC response efforts
+
+### Technical Instructor | Freelance / Professional Training | 2014 – 2017
+- Delivered professional training in CCNA, CCNA Security, MCITP, OSINT, C#, and Python
+- Developed hands-on labs and training materials for cybersecurity fundamentals
+
+### Cyber Threat Analyst | Government Entity (Confidential) | 2012 – 2015
+- Detailed forensic analysis and reporting on packet captures, file systems, and logs
+- Malware functionality analysis and indicator extraction
+- DFIR and threat intelligence conduit operations
+- Threat hunting and incident response leadership
+
+### Senior Security Engineer – MENA | VFS Global | 2006 – 2012
+- Managed security infrastructure for 8 diplomatic missions across Europe
+- Secret-level security clearance while supporting embassy operations
+- Network management, IDS/IPS, SIEM, and security device administration
+
+### IT Engineer | Etimad Private Limited | 2002 – 2006
+- IT infrastructure consulting and technical team supervision
+- Data network and VoIP infrastructure deployment
+
+---
+
+## Professional Activities
+- 2023: Cybersecurity & ISO/IEC 27001 Advisory — Qatar National Cyber Security Agency
+- 2022: Accredited Digital Investigator — Emirates Red Crescent Authority
+- 2020: Speaker — Saudi Cybersecurity Hackathon
+
+---
+
+## Publications
+
+### Industry Publications (Cyber Defense Magazine)
+
+1. **"Inside the Mind of a Threat Actor: What CISOs Must Learn Before the Next Breach"** (2026)
+   - Exploration of threat actor psychology, decision-making processes, and cognitive patterns
+   - APA: Awad, A. (2026). Inside the mind of a threat actor: What CISOs must learn before the next breach. *Cyber Defense Magazine*.
+
+2. **"The Financialization of Cybercrime"** (2025)
+   - Analysis of financial infrastructure supporting cybercrime: ransomware-as-a-service, cyber insurance arbitrage, cryptocurrency-based money laundering
+   - APA: Awad, A. (2025). The financialization of cybercrime. *Cyber Defense Magazine*.
+
+### Articles
+
+3. **"How Blockchain Could Disrupt Industries"** (2023) — Blocktelegraph.io
+   - Blockchain technology's potential to transform industries through decentralized trust models and smart contract automation
+
+---
+
+## Books
+
+1. **You Can Hide Your Name... Not Your Mind** — How Artificial Intelligence Reveals the Human Behind Digital Identities
+   - https://www.amazon.com/dp/B0H8LCTTWW
+
+2. **Inside the Hacker Hunter's Mind**
+   - https://www.amazon.com/gp/product/B0FF1X2WS4
+
+3. **Inside the Hacker Hunter's Toolkit**
+   - https://www.amazon.com/gp/product/B0FFSWB2XS
+
+4. **Inside the Hacker Hunter's Domain Cyber Intelligence**
+   - https://www.amazon.com/gp/product/B0FXGTRCQT
+
+5. **Inside the Hacker Hunter's AI Identity War**
+   - https://www.amazon.com/gp/product/B0GF23FBCN
+
+---
+
+## Open Source Projects
+
+1. **AnubisX Framework** (CC BY 4.0)
+   - Formal framework for behavioral digital attribution
+   - https://github.com/AnubisXFramework/AnubisXFramework
+
+2. **Anubis Twitter v2.5** (MIT)
+   - Prototype implementation of stylometric modality for Arabic Twitter data
+   - 47 Python source files (~2,800 LOC)
+   - https://github.com/AnubisXFramework/AnubisXFramework
+
+---
+
+## Skills
+Cyber Threat Intelligence, Threat Hunting, OSINT (VT, Shodan, Maltego, Censys, Splunk), SIEM, IDS/IPS, HIDS/HIPS, SOAR, Malware Analysis, Penetration Testing, Digital Forensics, Python, C#, Security Risk Management, Data Mining & Visualization.
+
+---
+
+## Open Science Philosophy
+All components of the AnubisX Framework — axioms, mathematical objects, algorithms, validation criteria, and limitation documentation — are publicly available. The framework explicitly documents all limitations, failure modes, and validation status, establishing a new standard of transparency in behavioral attribution research. Independent researchers are encouraged to validate, replicate, and build upon this work.
+
+---
+
+*Generated from https://ahmedawadresearch.github.io/ — Last updated July 2026*

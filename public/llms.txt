@@ -1,0 +1,53 @@
+# Ahmed Awad (NullC0d3) — Cybersecurity Researcher
+
+> Official academic website of Ahmed Awad (NullC0d3). Cybersecurity Researcher, Threat Intelligence Analyst, AI Attribution Specialist, and creator of the AnubisX Framework for behavioral digital attribution.
+
+## Core Identity
+- Name: Ahmed Awad
+- Alias: NullC0d3
+- Title: Cybersecurity Strategist · Threat Intelligence Researcher · AI Attribution Specialist · CISSP · Author
+- ORCID: https://orcid.org/0009-0005-0654-3393
+- LinkedIn: https://www.linkedin.com/in/nullc0d3
+- GitHub: https://github.com/nullc0d30
+
+## Key Pages
+- Home: https://ahmedawadresearch.github.io/
+- About: https://ahmedawadresearch.github.io/about/
+- Research: https://ahmedawadresearch.github.io/research/
+- Projects: https://ahmedawadresearch.github.io/projects/
+- AnubisX Framework: https://ahmedawadresearch.github.io/anubisx/
+- Publications: https://ahmedawadresearch.github.io/publications/
+- Books: https://ahmedawadresearch.github.io/books/
+- Articles: https://ahmedawadresearch.github.io/articles/
+- Open Source: https://ahmedawadresearch.github.io/open-source/
+- CV: https://ahmedawadresearch.github.io/cv/
+- Contact: https://ahmedawadresearch.github.io/contact/
+- RSS Feed: https://ahmedawadresearch.github.io/feed.xml
+
+## Research Focus
+Behavioral Digital Attribution, Cyber Threat Intelligence, Digital Forensics, OSINT, AI-powered digital identity attribution, Cognitive Centroid Theory, Multi-modal Behavioral Analysis.
+
+## Key Projects
+- **AnubisX Framework**: Formal framework for behavioral digital attribution. 16 axioms, Cognitive Centroid theory, 292 defined objects, 37 algorithms across 5 behavioral modalities, 4-tier validation infrastructure. https://github.com/AnubisXFramework/anubisxframework.github.io
+
+## Publications (Cyber Defense Magazine)
+- "Inside the Mind of a Threat Actor: What CISOs Must Learn Before the Next Breach" (2026)
+- "The Financialization of Cybercrime" (2025)
+
+## Books (Available on Amazon)
+1. *You Can Hide Your Name... Not Your Mind* — AI and behavioral analysis for unmasking digital identities
+2. *Inside the Hacker Hunter's Mind* — Psychology of cybercriminal pursuit
+3. *Inside the Hacker Hunter's Toolkit* — Cybersecurity tools and techniques
+4. *Inside the Hacker Hunter's Domain Cyber Intelligence* — Cyber intelligence operations
+5. *Inside the Hacker Hunter's AI Identity War* — AI in digital identity concealment and revelation
+
+## Open Source
+- AnubisX Framework (CC BY 4.0): https://github.com/AnubisXFramework/AnubisXFramework
+- Anubis Twitter v2.5 (MIT): Prototype stylometric analysis for Arabic Twitter data
+
+## Research Profiles
+- ORCID: https://orcid.org/0009-0005-0654-3393
+- ResearchGate: https://www.researchgate.net/profile/Ahmed-Awad-118
+- OSF: https://osf.io/37bhn/
+- Zenodo: https://zenodo.org/records/21393392
+- Figshare: https://figshare.com/authors/Ahmed_Awad/24415733

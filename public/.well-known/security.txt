@@ -1,0 +1,26 @@
+# Security Contact for Ahmed Awad (NullC0d3) — Academic Website
+# https://ahmedawadresearch.github.io/
+
+# Preferred contact method for security researchers to report vulnerabilities
+Contact: https://www.linkedin.com/in/nullc0d3
+
+# Canonical URI for this security.txt file
+Canonical: https://ahmedawadresearch.github.io/.well-known/security.txt
+
+# Encryption key (if applicable)
+# Encryption: https://ahmedawadresearch.github.io/pgp-key.txt
+
+# Preferred languages for security reports
+Preferred-Languages: en, ar
+
+# Policy URL (if applicable)
+# Policy: https://ahmedawadresearch.github.io/security-policy.txt
+
+# Expiry date (ISO 8601) — recommend updating annually
+Expires: 2027-07-21T00:00:00.000Z
+
+# Acknowledgement period
+Acknowledgments: https://www.linkedin.com/in/nullc0d3
+
+# Author
+Author: Ahmed Awad (NullC0d3)

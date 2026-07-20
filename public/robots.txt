@@ -4,4 +4,10 @@
 User-agent: *
 Allow: /
 
+# AI crawler optimization
+LLMs: /llms.txt
+
+# Host
+Host: https://ahmedawadresearch.github.io
+
 Sitemap: https://ahmedawadresearch.github.io/sitemap.xml

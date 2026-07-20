@@ -85,6 +85,8 @@ var p=document.getElementById('cv-print-btn');if(p)p.addEventListener('click',fu
         <link rel="canonical" href="https://ahmedawadresearch.github.io" />
         <link rel="manifest" href="/manifest.json" />
         <link rel="alternate" type="application/rss+xml" title="Ahmed Awad (NullC0d3) - Publications Feed" href="https://ahmedawadresearch.github.io/feed.xml" />
+        <link rel="llms-txt" href="/llms.txt" />
+        <link rel="author" type="text/plain" href="/humans.txt" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link rel="dns-prefetch" href="https://github.com" />
