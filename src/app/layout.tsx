@@ -90,6 +90,9 @@ var p=document.getElementById('cv-print-btn');if(p)p.addEventListener('click',fu
         <meta name="referrer" content="strict-origin-when-cross-origin" />
         <meta name="theme-color" content="#3b82f6" />
         <link rel="canonical" href="https://ahmedawadresearch.github.io" />
+        <link rel="icon" type="image/png" href="/favico.png" />
+        <link rel="shortcut icon" type="image/png" href="/favico.png" />
+        <link rel="apple-touch-icon" href="/favico.png" />
         <link rel="manifest" href="/manifest.json" />
         <link rel="alternate" type="application/rss+xml" title="Ahmed Awad (NullC0d3) - Publications Feed" href="https://ahmedawadresearch.github.io/feed.xml" />
         <link rel="llms-txt" href="/llms.txt" />

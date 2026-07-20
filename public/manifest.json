@@ -8,15 +8,15 @@
   "theme_color": "#3b82f6",
   "icons": [
     {
-      "src": "/images/ahmedawadnullc0d3.jpg",
+      "src": "/favico.png",
       "sizes": "192x192",
-      "type": "image/jpeg",
+      "type": "image/png",
       "purpose": "any maskable"
     },
     {
-      "src": "/images/ahmedawadnullc0d3.jpg",
+      "src": "/favico.png",
       "sizes": "512x512",
-      "type": "image/jpeg",
+      "type": "image/png",
       "purpose": "any maskable"
     }
   ]

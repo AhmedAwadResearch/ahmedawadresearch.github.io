@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 
 const navItems = [
@@ -20,8 +21,8 @@ export default function Header() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16 lg:h-20">
           <Link href="/" className="flex items-center gap-3 group">
-            <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-primary-500 to-accent-500 flex items-center justify-center text-white font-bold text-sm">
-              A
+            <div className="w-8 h-8 rounded-lg overflow-hidden">
+              <Image src="/favico.png" alt="Ahmed Awad (NullC0d3)" width={32} height={32} className="object-cover w-full h-full" />
             </div>
             <div className="hidden sm:block">
               <span className="font-semibold text-sm lg:text-base text-slate-900 dark:text-white">

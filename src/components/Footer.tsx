@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import { Github, Linkedin, BookOpen, ExternalLink } from "lucide-react";
 
@@ -26,8 +27,8 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-12">
           <div className="lg:col-span-1">
             <div className="flex items-center gap-3 mb-4">
-              <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-primary-500 to-accent-500 flex items-center justify-center text-white font-bold">
-                A
+              <div className="w-10 h-10 rounded-xl overflow-hidden">
+                <Image src="/favico.png" alt="Ahmed Awad (NullC0d3)" width={40} height={40} className="object-cover w-full h-full" />
               </div>
               <div>
                 <p className="font-semibold text-slate-900 dark:text-white">Ahmed Awad</p>
