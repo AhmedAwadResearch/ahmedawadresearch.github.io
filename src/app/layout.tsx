@@ -79,6 +79,7 @@ var p=document.getElementById('cv-print-btn');if(p)p.addEventListener('click',fu
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="keywords" content="Ahmed Awad, NullC0d3, Cybersecurity Researcher, Threat Intelligence, AnubisX Framework, Behavioral Digital Attribution, Cyber Threat Intelligence, Digital Forensics, OSINT" />
         <meta name="author" content="Ahmed Awad (NullC0d3)" />
+        <meta name="google-site-verification" content="ucf5telVeNvwOc8QpbVX1Kl9OWWVGgqZut8AIEP0pRA" />
         <meta name="referrer" content="strict-origin-when-cross-origin" />
         <meta name="theme-color" content="#3b82f6" />
         <link rel="canonical" href="https://ahmedawadresearch.github.io" />
